@@ -24,9 +24,6 @@ Thumbs.db
 # Streamlit cache
 .streamlit/
 
-# Data files (optional: keep raw data out of GitHub)
-data/*.csv
-
 # VS Code
 .vscode/
 
