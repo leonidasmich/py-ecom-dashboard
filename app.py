@@ -25,6 +25,7 @@ def get_conn():
 # Load data from PostgreSQL
 @st.cache_data
 def get_data():
+    # cache busted
     query = """
     SELECT o.order_id, o.order_purchase_timestamp, o.customer_id, c.customer_unique_id, c.customer_state,
            p.payment_value, oi.product_id, pr.product_category_name,
