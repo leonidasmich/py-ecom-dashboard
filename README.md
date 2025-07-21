@@ -10,90 +10,108 @@ An ecommerce business struggles to understand key customer behaviors and sales t
 
 To design and build a **data-driven analytics dashboard** that allows business stakeholders to:
 
-- Monitor revenue and order performance in real time
-- Understand customer lifecycle and retention
-- Segment customers based on behavior (RFM)
-- Visualize geographic sales distribution
-- Predict which customers are likely to churn
+- Monitor revenue and order performance in real time  
+- Understand customer lifecycle and retention  
+- Segment customers based on behavior (RFM)  
+- Visualize geographic sales distribution  
+- Predict which customers are likely to churn  
 
 ---
 
 ### 🛠 My Role
 
 I led the full project lifecycle:
-- **Data integration** across multiple CSV sources (orders, payments, customers, products)
-- **Feature engineering** for RFM segmentation and cohort analysis
-- **Interactive dashboard design** using Streamlit and Plotly
-- **Machine learning** implementation for churn prediction
-- **Visualization of insights** using choropleths and dynamic filters
+- **Data ingestion** from structured CSV datasets into a normalized **PostgreSQL** database
+- Developed an **automated data seeding pipeline** with bulk inserts and conflict resolution
+- **Containerized the database** using Docker for consistent local and remote environments
+- Designed and deployed an interactive **Streamlit dashboard** with responsive filtering
+- Implemented **cohort analysis**, **RFM segmentation**, and **KMeans clustering**
+- Developed a **churn prediction model** using Logistic Regression
 
 ---
 
 ### 🔍 Key Features
 
 #### 📦 Overview Dashboard
-- Real-time metrics: revenue, order count, unique customers
-- Monthly revenue trends
-- Top product categories and payment methods
+- Real-time KPIs: Total Revenue, Orders, Unique Customers  
+- Monthly revenue time series chart  
+- Top product categories by order volume  
+- Payment method distribution pie chart  
 
 #### 🧠 Customer Retention Analysis
-- Cohort analysis heatmap to track customer retention month-over-month
+- Cohort matrix showing month-over-month retention  
+- Normalized heatmap to highlight drop-offs and loyalty trends  
 
 #### 📌 RFM Segmentation & Clustering
-- Generated RFM scores (Recency, Frequency, Monetary)
-- Applied **K-Means clustering** to identify customer segments such as:
-  - Champions
-  - At Risk
-  - New Customers
-  - Loyal Users
-- Interactive scatter plot showing customer distribution
+- Recency, Frequency, and Monetary scoring for each customer  
+- Applied **K-Means Clustering** to define segments:
+  - Champions  
+  - Loyal  
+  - New Customers  
+  - At Risk  
+- Visualized segments in a bubble scatterplot  
 
 #### 🌍 Geographic Revenue Insights
-- Choropleth map visualizing revenue distribution by Brazilian state
-- Highlights regional sales patterns and concentration
+- Choropleth map using GeoJSON to show revenue by Brazilian state  
+- Highlights regional disparities and potential market focus areas  
 
 #### 🔮 Churn Prediction Model
-- Built a **Logistic Regression model** to estimate churn probability based on RFM behavior
-- Predicted high-risk customers with probabilities and performance metrics
+- Simulated churn based on recency threshold  
+- Trained **Logistic Regression** on RFM data  
+- Predicted churn probabilities with ranking  
+- Displayed classification report with precision and recall  
 
 ---
 
-### 💡 Business Value
+### 🔐 Deployment & Data Architecture Highlights
 
-This dashboard serves as a **central decision-support tool** for marketing, sales, and executive teams. It allows the business to:
-
-- Target high-value customer segments
-- Identify churn before it happens
-- Optimize marketing spend by region
-- Align customer lifecycle strategy with actual data
-
----
-
-### 🧰 Tech Stack
-
-- **Python** (Pandas, Scikit-learn, NumPy)
-- **Streamlit** for frontend UI
-- **Plotly** for dynamic visualizations
-- **GeoJSON** + Choropleth for geographic analysis
-- **Machine Learning** for churn prediction and clustering
+- **PostgreSQL** hosted via Docker for structured data storage  
+- Bulk-insert logic with row count validation to avoid duplicates  
+- Environment variables securely managed with **Streamlit Secrets Manager**  
+- Streamlit connects directly to the PostgreSQL instance using `psycopg2`  
+- Dashboard auto-refreshes with caching via `@st.cache_data` and `@st.cache_resource`
 
 ---
 
 ### 📎 Dataset
 
-Used the publicly available [Olist Ecommerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which includes:
+Used the publicly available [Olist Brazilian Ecommerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which includes:
 
-- 100k+ orders from 2016–2018
-- Customer, seller, product, and geolocation data
-- Payment and review history
+- 100k+ orders from 2016–2018  
+- Product, customer, seller, payment, and review details  
+- Rich geolocation and category metadata  
+
+---
+
+### 💡 Business Value
+
+This dashboard provides a **single source of truth** for ecommerce analytics, enabling the business to:
+
+- Track high-level performance across time and geography  
+- Prioritize marketing efforts toward loyal and high-spending customers  
+- Identify at-risk customers before they churn  
+- Align internal teams with actionable, real-time data  
+
+---
+
+### 🧰 Tech Stack
+
+- **Python**: Pandas, Scikit-learn, NumPy, psycopg2  
+- **PostgreSQL**: Relational database for normalized data  
+- **Streamlit**: Interactive analytics frontend  
+- **Plotly**: Rich data visualizations and maps  
+- **Docker**: Containerized backend infrastructure  
+- **GeoJSON**: Spatial mapping of revenue insights  
+- **Streamlit Secrets**: Secure credential management for cloud deployment  
 
 ---
 
 ### 📌 Use Case Fit
 
-This type of dashboard is ideal for:
-- Ecommerce startups and DTC brands
-- Product managers looking to track retention
-- Analysts needing a lightweight, end-to-end BI solution
+This solution is ideal for:
+- Ecommerce brands and marketplaces  
+- BI analysts and product teams  
+- Data professionals building lightweight, full-stack analytics apps  
+- Startups seeking end-to-end visibility without enterprise BI tools  
 
 ---

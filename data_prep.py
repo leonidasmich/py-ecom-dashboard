@@ -1,20 +1,14 @@
-import pandas as pd
+import os
+import psycopg2
+from dotenv import load_dotenv
 
+load_dotenv()
 
-def load_data():
-    orders = pd.read_csv("data/olist_orders_dataset.csv", parse_dates=["order_purchase_timestamp"])
-    order_items = pd.read_csv("data/olist_order_items_dataset.csv")
-    payments = pd.read_csv("data/olist_order_payments_dataset.csv")
-    customers = pd.read_csv("data/olist_customers_dataset.csv")
-    products = pd.read_csv("data/olist_products_dataset.csv")
-    categories = pd.read_csv("data/product_category_name_translation.csv")
-
-    merged = orders.merge(order_items, on="order_id") \
-                   .merge(payments, on="order_id") \
-                   .merge(customers, on="customer_id") \
-                   .merge(products, on="product_id", how="left") \
-                   .merge(categories, on="product_category_name", how="left")
-
-    return merged
-
-
+def get_connection():
+    return psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD")
+    )

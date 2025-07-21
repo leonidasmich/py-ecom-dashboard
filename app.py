@@ -3,21 +3,43 @@ import pandas as pd
 import plotly.express as px
 import json
 import urllib.request
+import os
+import psycopg2
+from psycopg2 import sql
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
-from data_prep import load_data
+from data_prep import get_connection
+
 
 st.set_page_config(page_title="Ecommerce Dashboard", layout="wide")
 st.title("🛒 Ecommerce Analytics Dashboard")
 
-# Load and cache data
+# PostgreSQL connection
+@st.cache_resource
+def get_conn():
+    return get_connection()
+
+# Load data from PostgreSQL
 @st.cache_data
 def get_data():
-    return load_data()
+    query = """
+    SELECT o.order_id, o.order_purchase_timestamp, o.customer_id, c.customer_unique_id, c.customer_state,
+           p.payment_value, oi.product_id, pr.product_category_name,
+           cat.product_category_name_english, p.payment_type
+    FROM orders o
+    JOIN customers c ON o.customer_id = c.customer_id
+    JOIN payments p ON o.order_id = p.order_id
+    JOIN order_items oi ON o.order_id = oi.order_id
+    LEFT JOIN products pr ON oi.product_id = pr.product_id
+    LEFT JOIN categories cat ON pr.product_category_name = cat.product_category_name
+    """
+    conn = get_conn()
+    df = pd.read_sql(query, conn)
+    conn.close()
+    return df
 
 df = get_data()
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
@@ -84,7 +106,6 @@ with tab2:
 with tab3:
     st.subheader("📌 RFM Segmentation & Clustering")
 
-    # Build RFM table
     snapshot_date = df['order_purchase_timestamp'].max() + pd.Timedelta(days=1)
     rfm = df.groupby('customer_unique_id').agg({
         'order_purchase_timestamp': lambda x: (snapshot_date - x.max()).days,
@@ -99,11 +120,9 @@ with tab3:
     scaler = StandardScaler()
     rfm_scaled = scaler.fit_transform(rfm[['Recency', 'Frequency', 'Monetary']])
 
-    # KMeans clustering
     kmeans = KMeans(n_clusters=4, random_state=42, n_init=10)
     rfm['Cluster'] = kmeans.fit_predict(rfm_scaled)
 
-    # Map to segments
     cluster_labels = {
         0: "Loyal",
         1: "Champions",
@@ -112,15 +131,12 @@ with tab3:
     }
     rfm['Segment'] = rfm['Cluster'].map(cluster_labels)
 
-    # Display Segment Counts
     st.markdown("### 🧠 Segment Overview")
     seg_counts = rfm['Segment'].value_counts().reset_index()
     seg_counts.columns = ['Segment', 'Customer Count']
     st.dataframe(seg_counts, use_container_width=True)
 
-    # Scatter Plot
     st.markdown("### 📈 Clustered Scatter Plot")
-    import plotly.express as px
     fig = px.scatter(rfm, x='Recency', y='Frequency', size='Monetary',
                      color='Segment', hover_data=['customer_unique_id'],
                      title="RFM Segmentation with K-Means")
@@ -130,16 +146,13 @@ with tab3:
 with tab4:
     st.subheader("🌎 Revenue by State")
 
-    # Group revenue by customer_state
     state_rev = df.groupby('customer_state')['payment_value'].sum().reset_index()
     state_rev.columns = ['uf', 'revenue']
 
-    # Load GeoJSON of states
     geojson_url = "https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson"
     with urllib.request.urlopen(geojson_url) as response:
         brazil_geo = json.load(response)
 
-    # Choropleth using geojson
     fig = px.choropleth(
         state_rev,
         geojson=brazil_geo,
@@ -163,7 +176,6 @@ with tab4:
 with tab5:
     st.subheader("🔮 Churn Prediction (RFM-based)")
 
-    # Recalculate RFM
     snapshot_date = df['order_purchase_timestamp'].max() + pd.Timedelta(days=1)
     rfm = df.groupby('customer_unique_id').agg({
         'order_purchase_timestamp': lambda x: (snapshot_date - x.max()).days,
@@ -175,26 +187,22 @@ with tab5:
         'payment_value': 'Monetary'
     }).reset_index()
 
-    # Simulated churn label
     rfm['Churn'] = (rfm['Recency'] > 180).astype(int)
 
-    # Prepare features
     X = rfm[['Recency', 'Frequency', 'Monetary']]
     y = rfm['Churn']
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.3, random_state=42)
 
-    # Train model
     model = LogisticRegression()
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
 
-    # Churn probabilities
     rfm_test = rfm.iloc[y_test.index].copy()
     rfm_test['Churn_Prob'] = model.predict_proba(X_test)[:, 1]
 
-    st.markdown("### 🔢 Sample Churn Probabilities")
+    st.markdown("### 📉 Sample Churn Probabilities")
     st.dataframe(
         rfm_test[['customer_unique_id', 'Recency', 'Frequency', 'Monetary', 'Churn_Prob']]
         .sort_values('Churn_Prob', ascending=False)
