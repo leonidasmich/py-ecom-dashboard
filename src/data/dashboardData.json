@@ -1,0 +1,4090 @@
+{
+  "generatedAt": "2026-05-19T23:23:14Z",
+  "kpis": {
+    "revenue": 16008872.12,
+    "orders": 99440,
+    "customers": 96093,
+    "averageOrderValue": 160.99,
+    "averageReviewScore": 4.09
+  },
+  "monthlyRevenue": [
+    {
+      "month": "2016-09",
+      "revenue": 252.24
+    },
+    {
+      "month": "2016-10",
+      "revenue": 59090.48
+    },
+    {
+      "month": "2016-12",
+      "revenue": 19.62
+    },
+    {
+      "month": "2017-01",
+      "revenue": 138488.04
+    },
+    {
+      "month": "2017-02",
+      "revenue": 291908.01
+    },
+    {
+      "month": "2017-03",
+      "revenue": 449863.6
+    },
+    {
+      "month": "2017-04",
+      "revenue": 417788.03
+    },
+    {
+      "month": "2017-05",
+      "revenue": 592918.82
+    },
+    {
+      "month": "2017-06",
+      "revenue": 511276.38
+    },
+    {
+      "month": "2017-07",
+      "revenue": 592382.92
+    },
+    {
+      "month": "2017-08",
+      "revenue": 674396.32
+    },
+    {
+      "month": "2017-09",
+      "revenue": 727762.45
+    },
+    {
+      "month": "2017-10",
+      "revenue": 779677.88
+    },
+    {
+      "month": "2017-11",
+      "revenue": 1194882.8
+    },
+    {
+      "month": "2017-12",
+      "revenue": 878401.48
+    },
+    {
+      "month": "2018-01",
+      "revenue": 1115004.18
+    },
+    {
+      "month": "2018-02",
+      "revenue": 992463.34
+    },
+    {
+      "month": "2018-03",
+      "revenue": 1159652.12
+    },
+    {
+      "month": "2018-04",
+      "revenue": 1160785.48
+    },
+    {
+      "month": "2018-05",
+      "revenue": 1153982.15
+    },
+    {
+      "month": "2018-06",
+      "revenue": 1023880.5
+    },
+    {
+      "month": "2018-07",
+      "revenue": 1066540.75
+    },
+    {
+      "month": "2018-08",
+      "revenue": 1022425.32
+    },
+    {
+      "month": "2018-09",
+      "revenue": 4439.54
+    },
+    {
+      "month": "2018-10",
+      "revenue": 589.67
+    }
+  ],
+  "topCategories": [
+    {
+      "category": "Bed Bath Table",
+      "orders": 11115,
+      "revenue": 1241681.72
+    },
+    {
+      "category": "Health Beauty",
+      "orders": 9670,
+      "revenue": 1441248.07
+    },
+    {
+      "category": "Sports Leisure",
+      "orders": 8641,
+      "revenue": 1156656.48
+    },
+    {
+      "category": "Furniture Decor",
+      "orders": 8334,
+      "revenue": 902511.79
+    },
+    {
+      "category": "Computers Accessories",
+      "orders": 7827,
+      "revenue": 1059272.4
+    },
+    {
+      "category": "Housewares",
+      "orders": 6964,
+      "revenue": 778397.77
+    },
+    {
+      "category": "Watches Gifts",
+      "orders": 5991,
+      "revenue": 1305541.61
+    },
+    {
+      "category": "Telephony",
+      "orders": 4545,
+      "revenue": 394883.32
+    },
+    {
+      "category": "Garden Tools",
+      "orders": 4347,
+      "revenue": 584219.21
+    },
+    {
+      "category": "Auto",
+      "orders": 4235,
+      "revenue": 685384.32
+    }
+  ],
+  "paymentTypes": [
+    {
+      "type": "Credit Card",
+      "count": 76795,
+      "revenue": 12542084.19
+    },
+    {
+      "type": "Boleto",
+      "count": 19784,
+      "revenue": 2869361.27
+    },
+    {
+      "type": "Voucher",
+      "count": 5775,
+      "revenue": 379436.87
+    },
+    {
+      "type": "Debit Card",
+      "count": 1529,
+      "revenue": 217989.79
+    },
+    {
+      "type": "Not Defined",
+      "count": 3,
+      "revenue": 0.0
+    }
+  ],
+  "stateRevenue": [
+    {
+      "state": "SP",
+      "revenue": 5998226.96,
+      "orders": 41742
+    },
+    {
+      "state": "RJ",
+      "revenue": 2144379.69,
+      "orders": 12852
+    },
+    {
+      "state": "MG",
+      "revenue": 1872257.26,
+      "orders": 11635
+    },
+    {
+      "state": "RS",
+      "revenue": 890898.54,
+      "orders": 5466
+    },
+    {
+      "state": "PR",
+      "revenue": 811156.38,
+      "orders": 5045
+    },
+    {
+      "state": "SC",
+      "revenue": 623086.43,
+      "orders": 3637
+    },
+    {
+      "state": "BA",
+      "revenue": 616645.82,
+      "orders": 3380
+    },
+    {
+      "state": "DF",
+      "revenue": 355141.08,
+      "orders": 2140
+    },
+    {
+      "state": "GO",
+      "revenue": 350092.31,
+      "orders": 2020
+    },
+    {
+      "state": "ES",
+      "revenue": 325967.55,
+      "orders": 2033
+    },
+    {
+      "state": "PE",
+      "revenue": 324850.44,
+      "orders": 1652
+    },
+    {
+      "state": "CE",
+      "revenue": 279464.03,
+      "orders": 1336
+    },
+    {
+      "state": "PA",
+      "revenue": 218295.85,
+      "orders": 975
+    },
+    {
+      "state": "MT",
+      "revenue": 187029.29,
+      "orders": 907
+    },
+    {
+      "state": "MA",
+      "revenue": 152523.02,
+      "orders": 747
+    },
+    {
+      "state": "PB",
+      "revenue": 141545.72,
+      "orders": 536
+    },
+    {
+      "state": "MS",
+      "revenue": 137534.84,
+      "orders": 715
+    },
+    {
+      "state": "PI",
+      "revenue": 108523.97,
+      "orders": 495
+    },
+    {
+      "state": "RN",
+      "revenue": 102718.13,
+      "orders": 485
+    },
+    {
+      "state": "AL",
+      "revenue": 96962.06,
+      "orders": 413
+    },
+    {
+      "state": "SE",
+      "revenue": 75246.25,
+      "orders": 350
+    },
+    {
+      "state": "TO",
+      "revenue": 61485.33,
+      "orders": 280
+    },
+    {
+      "state": "RO",
+      "revenue": 60866.2,
+      "orders": 253
+    },
+    {
+      "state": "AM",
+      "revenue": 27966.93,
+      "orders": 148
+    },
+    {
+      "state": "AC",
+      "revenue": 19680.62,
+      "orders": 81
+    },
+    {
+      "state": "AP",
+      "revenue": 16262.8,
+      "orders": 68
+    },
+    {
+      "state": "RR",
+      "revenue": 10064.62,
+      "orders": 46
+    }
+  ],
+  "segments": [
+    {
+      "segment": "At Risk",
+      "customers": 66095
+    },
+    {
+      "segment": "Needs Attention",
+      "customers": 25414
+    },
+    {
+      "segment": "Loyal",
+      "customers": 2942
+    },
+    {
+      "segment": "New",
+      "customers": 1588
+    },
+    {
+      "segment": "Champions",
+      "customers": 54
+    }
+  ],
+  "rfmScatter": [
+    {
+      "customer": "0a0a92112bd4c708ca5fde585afaa872",
+      "recency": 383,
+      "frequency": 1,
+      "monetary": 13664.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "46450c74a0d8c5ca9395da1daac6c120",
+      "recency": 60,
+      "frequency": 3,
+      "monetary": 9553.02,
+      "segment": "Champions"
+    },
+    {
+      "customer": "da122df9eeddfedc1dc1f5349a1a690c",
+      "recency": 564,
+      "frequency": 2,
+      "monetary": 7571.63,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "763c8b1c9c68a0229c42c9fc6f662b93",
+      "recency": 94,
+      "frequency": 1,
+      "monetary": 7274.88,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "dc4802a71eae9be1dd28f5d788ceb526",
+      "recency": 611,
+      "frequency": 1,
+      "monetary": 6929.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "459bef486812aa25204be022145caa62",
+      "recency": 83,
+      "frequency": 1,
+      "monetary": 6922.21,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ff4159b92c40ebe40454e3e6a7c35ed6",
+      "recency": 510,
+      "frequency": 1,
+      "monetary": 6726.66,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4007669dec559734d6f53e029e360987",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 6081.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5d0a2980b292d049061542014e8960bf",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 4809.44,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "eebb5dda148d3893cdaf5b5ca3040ccb",
+      "recency": 546,
+      "frequency": 1,
+      "monetary": 4764.34,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "48e1ac109decbb87765a3eade6854098",
+      "recency": 117,
+      "frequency": 1,
+      "monetary": 4681.78,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c8460e4251689ba205045f3ea17884a1",
+      "recency": 70,
+      "frequency": 4,
+      "monetary": 4655.91,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "edde2314c6c30e864a128ac95d6b2112",
+      "recency": 74,
+      "frequency": 1,
+      "monetary": 4513.32,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "a229eba70ec1c2abef51f04987deb7a5",
+      "recency": 138,
+      "frequency": 1,
+      "monetary": 4445.5,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "edf81e1f3070b9dac83ec83dacdbb9bc",
+      "recency": 546,
+      "frequency": 1,
+      "monetary": 4194.76,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fa562ef24d41361e476e748681810e1e",
+      "recency": 202,
+      "frequency": 1,
+      "monetary": 4175.26,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ca27f3dac28fb1063faddd424c9d95fa",
+      "recency": 80,
+      "frequency": 1,
+      "monetary": 4163.51,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "055ec572ac7f3c7bdd04a183830ebe59",
+      "recency": 455,
+      "frequency": 2,
+      "monetary": 4053.08,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "5e713be0853d8986528d7869a0811d2b",
+      "recency": 619,
+      "frequency": 1,
+      "monetary": 4042.74,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "58483a1c055dfb600f57c5b867174542",
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 4034.44,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "011875f0176909c5cf0b14a9138bb691",
+      "recency": 577,
+      "frequency": 1,
+      "monetary": 4016.91,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f0767ae738c3d90e7b737d7b8b8bb4d1",
+      "recency": 156,
+      "frequency": 1,
+      "monetary": 3979.55,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "bc5e25094a7d51b6aee35236572e64f4",
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 3826.8,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3fec1a05177762f279472253113d568a",
+      "recency": 210,
+      "frequency": 1,
+      "monetary": 3792.59,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5aad27a7b4f74b1c3389d56c74db1057",
+      "recency": 595,
+      "frequency": 1,
+      "monetary": 3782.19,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5d09b0d82126457e2a8ebfb9c9a1ffc4",
+      "recency": 614,
+      "frequency": 1,
+      "monetary": 3736.22,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "931eabdf0636b8fd60369a8d759917d6",
+      "recency": 525,
+      "frequency": 1,
+      "monetary": 3666.42,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "03796b63235e0e0a299084988c662c7e",
+      "recency": 602,
+      "frequency": 1,
+      "monetary": 3602.47,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "59d66d72939bc9497e19d89c61a96d5f",
+      "recency": 432,
+      "frequency": 2,
+      "monetary": 3559.99,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "2c3b08cf3584d8c0a81d9618a73aa219",
+      "recency": 191,
+      "frequency": 1,
+      "monetary": 3526.46,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "95a744604de66a2e40e18086e69be4f2",
+      "recency": 103,
+      "frequency": 1,
+      "monetary": 3406.47,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "76a08544f95591acec0d4c976054c459",
+      "recency": 248,
+      "frequency": 1,
+      "monetary": 3358.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ce3fe361f9e68bf0a813baaae1334d01",
+      "recency": 63,
+      "frequency": 1,
+      "monetary": 3351.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7a96eb0a685f5c19b7dad29fc802aa64",
+      "recency": 304,
+      "frequency": 1,
+      "monetary": 3297.4,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9b11e010850a4045d2da80c7783fdbd1",
+      "recency": 132,
+      "frequency": 1,
+      "monetary": 3256.14,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "adfa1cab2b2c8706db21bb13c0a1beb1",
+      "recency": 137,
+      "frequency": 1,
+      "monetary": 3242.84,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "bbeb907759ef5fc169099af3c88d535d",
+      "recency": 173,
+      "frequency": 1,
+      "monetary": 3209.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1b76903617af13189607a36b0469f6f3",
+      "recency": 148,
+      "frequency": 1,
+      "monetary": 3195.73,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "6f00d356a4be20527662aaf12116baab",
+      "recency": 330,
+      "frequency": 1,
+      "monetary": 3184.55,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "53fb3435773a4690e56010b169ee2820",
+      "recency": 250,
+      "frequency": 1,
+      "monetary": 3155.82,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "895617ab63a9ad8881d9470f7427cd25",
+      "recency": 376,
+      "frequency": 1,
+      "monetary": 3126.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c6111f70f40b3420e387493c627c27fa",
+      "recency": 372,
+      "frequency": 1,
+      "monetary": 3126.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "be825ddd3b40db3f91bf05b4e9435d56",
+      "recency": 127,
+      "frequency": 1,
+      "monetary": 3122.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f886a3f43af9ac928fbb4b56436c528c",
+      "recency": 63,
+      "frequency": 1,
+      "monetary": 3076.13,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "58c1b085b54c03a1f1ab5f13d64c2b1c",
+      "recency": 395,
+      "frequency": 2,
+      "monetary": 3064.72,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "ff0ae98646e7bbb41cf0f0d3991fef98",
+      "recency": 498,
+      "frequency": 1,
+      "monetary": 3048.27,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0f75637a7e2f7b6ae43665d1f7d0ca5d",
+      "recency": 587,
+      "frequency": 1,
+      "monetary": 3044.12,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "2ae8173a688e326821403a5b7a6858c2",
+      "recency": 575,
+      "frequency": 1,
+      "monetary": 3042.36,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6172bd5b7f52ade8c6c4548b448ff54f",
+      "recency": 468,
+      "frequency": 1,
+      "monetary": 3041.73,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ea984b06b18cc6905bc2f9b0a3d1c986",
+      "recency": 569,
+      "frequency": 1,
+      "monetary": 3024.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ef8d54b3797ea4db1d63f0ced6a906e9",
+      "recency": 181,
+      "frequency": 1,
+      "monetary": 3018.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ee2bb06c1d3f368e92084edefb7e4b57",
+      "recency": 624,
+      "frequency": 1,
+      "monetary": 3016.01,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ae04948ad7210ea76801b331080e0b3a",
+      "recency": 560,
+      "frequency": 1,
+      "monetary": 3009.53,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4683ad127301c1bcbd601a30bb22d2ba",
+      "recency": 172,
+      "frequency": 1,
+      "monetary": 3005.06,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "129bfc164612d70a040a844b887dfec5",
+      "recency": 213,
+      "frequency": 1,
+      "monetary": 2960.05,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d9f8d6be11fb416742c9e35e725303f7",
+      "recency": 331,
+      "frequency": 1,
+      "monetary": 2938.17,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5599df2eeb9e2e4f377db24e09cb976f",
+      "recency": 350,
+      "frequency": 1,
+      "monetary": 2913.47,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fff5eb4918b2bf4b2da476788d42051c",
+      "recency": 107,
+      "frequency": 1,
+      "monetary": 2844.96,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c38b132f1c68c14c0d3b32e66b796eba",
+      "recency": 194,
+      "frequency": 1,
+      "monetary": 2838.22,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8ad6fdb3d658f916f444aaf55a49bb29",
+      "recency": 141,
+      "frequency": 1,
+      "monetary": 2828.42,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c21e93b1d7b7a416d0f36fa6ebc1d60a",
+      "recency": 518,
+      "frequency": 1,
+      "monetary": 2827.0,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "25bedfc6317ec4a379ef49b9c1049733",
+      "recency": 172,
+      "frequency": 1,
+      "monetary": 2818.74,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "030a810edeec1ceea314282513023587",
+      "recency": 526,
+      "frequency": 1,
+      "monetary": 2794.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d130666a33d3681209c5c752fe56ee10",
+      "recency": 353,
+      "frequency": 2,
+      "monetary": 2791.52,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "34ff67eb3466a779b2f6b6fd56a3b953",
+      "recency": 138,
+      "frequency": 1,
+      "monetary": 2787.87,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "81d8bf17c9e450228efeedd2603edfaa",
+      "recency": 478,
+      "frequency": 1,
+      "monetary": 2784.16,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "eae0a83d752b1dd32697e0e7b4221656",
+      "recency": 176,
+      "frequency": 2,
+      "monetary": 2783.01,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "acc38a550c42d17125cd25c32a464d26",
+      "recency": 160,
+      "frequency": 1,
+      "monetary": 2759.95,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ec5d2f91c651ce345616c7035fab6f9d",
+      "recency": 324,
+      "frequency": 1,
+      "monetary": 2759.88,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1e7097be947ad5d0f7819bdc9d8d7d0e",
+      "recency": 559,
+      "frequency": 1,
+      "monetary": 2751.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0de97ff655abfc142ba6fc83e86bf082",
+      "recency": 318,
+      "frequency": 1,
+      "monetary": 2734.66,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "149b43a4776ea0a773ac75bc58830fb9",
+      "recency": 485,
+      "frequency": 1,
+      "monetary": 2734.11,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "13d9920a16127351540bcd95ad4643c8",
+      "recency": 300,
+      "frequency": 1,
+      "monetary": 2733.63,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fc54c2c09aee36da48881e5bf37ef795",
+      "recency": 306,
+      "frequency": 1,
+      "monetary": 2732.06,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f140f377d666848e3712b51a2734d120",
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 2713.36,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "5e92460d739e8dd987e279285a1d278c",
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 2713.36,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "60b2ec19b8c18082cdb5180106a97cb5",
+      "recency": 426,
+      "frequency": 1,
+      "monetary": 2692.82,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c949c73b1318491d6b5b117acb3e24a4",
+      "recency": 502,
+      "frequency": 1,
+      "monetary": 2681.29,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bb149f7e7bfee3d984e265d0eae6181b",
+      "recency": 498,
+      "frequency": 1,
+      "monetary": 2681.29,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "212b7cfb2631b23e85a4645a7cba1733",
+      "recency": 149,
+      "frequency": 1,
+      "monetary": 2647.76,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f44ffa618df5f8a65899275c93b14ae2",
+      "recency": 159,
+      "frequency": 1,
+      "monetary": 2638.64,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "69e4e534ba5e6a8124d132b271923148",
+      "recency": 479,
+      "frequency": 1,
+      "monetary": 2627.09,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "684da9ec00ee25877fe21ce197403d04",
+      "recency": 162,
+      "frequency": 1,
+      "monetary": 2616.0,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "26b5839e505ee33e6a449f7c2c403f99",
+      "recency": 138,
+      "frequency": 1,
+      "monetary": 2607.09,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7814db11654d2bf3b43bae828b6eee05",
+      "recency": 558,
+      "frequency": 1,
+      "monetary": 2606.01,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7386ded430d6aeb715a0d087c38a2dfe",
+      "recency": 216,
+      "frequency": 1,
+      "monetary": 2590.61,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d8f1c3ed0de527caf0a7eceeb025b583",
+      "recency": 577,
+      "frequency": 1,
+      "monetary": 2574.38,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "94c1c602b16a9fdfbc154ef63cfa50f9",
+      "recency": 559,
+      "frequency": 1,
+      "monetary": 2566.9,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0621cda5f3ee9a2e6f3ae6ebb5fcdbe1",
+      "recency": 151,
+      "frequency": 1,
+      "monetary": 2564.65,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "02ccceb879088a0253e1e46e0200bdb8",
+      "recency": 69,
+      "frequency": 1,
+      "monetary": 2512.53,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "84056c11d63b679a61f195ef043505f4",
+      "recency": 446,
+      "frequency": 1,
+      "monetary": 2487.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "575fa0cb05146c256ec1c9d348ec0305",
+      "recency": 433,
+      "frequency": 1,
+      "monetary": 2480.58,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5dff3703f9d82688ab5a1c92df1e4b18",
+      "recency": 354,
+      "frequency": 1,
+      "monetary": 2467.33,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bef3ce10ea5715fbcbcbe3b266ee94c5",
+      "recency": 145,
+      "frequency": 1,
+      "monetary": 2467.17,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0bec90ebca9ff4b2b830950bb052e52d",
+      "recency": 175,
+      "frequency": 1,
+      "monetary": 2457.44,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "8e07cbdbbb24328ece74135e2a81405b",
+      "recency": 68,
+      "frequency": 1,
+      "monetary": 2455.12,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "d3ef55d6de8e4be1d4b905e8169224b5",
+      "recency": 320,
+      "frequency": 1,
+      "monetary": 2452.12,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d77aa95864ae5b42160937615628723a",
+      "recency": 413,
+      "frequency": 2,
+      "monetary": 2450.1,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "85475e754525d6d222d917dbc8251801",
+      "recency": 80,
+      "frequency": 1,
+      "monetary": 2438.51,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "24c0598e5978021ede868fbf7526544a",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 2429.68,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f755e02e22f99b9e1658cbd2186a212d",
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 2419.2,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "98133dfcdb0c24fa03c9eb4f0d69a6c4",
+      "recency": 326,
+      "frequency": 1,
+      "monetary": 2416.0,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f2a29b4d4c04184a9372bb7374d344ac",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 2404.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "5eed8cf8c54bff340300c214ddc32db4",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 2404.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "86df00dc5fd68f4dd5d5945ca19f3ed6",
+      "recency": 369,
+      "frequency": 3,
+      "monetary": 2400.48,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "87070b00f89fa49dd0b01ff4bf075b8c",
+      "recency": 182,
+      "frequency": 1,
+      "monetary": 2389.78,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e3e0e9112264452e4700d977ce02a4d1",
+      "recency": 231,
+      "frequency": 1,
+      "monetary": 2384.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c5a0eef09ffd9448532ef07854769930",
+      "recency": 183,
+      "frequency": 1,
+      "monetary": 2360.42,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d280c55bb8f45e367a7f24151bc99fdd",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 2345.03,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7b0eaf68a16e4808e5388c67345033c9",
+      "recency": 151,
+      "frequency": 2,
+      "monetary": 2340.08,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "c53a15252bb69a238a59b79c58a84bcf",
+      "recency": 330,
+      "frequency": 1,
+      "monetary": 2338.48,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6963ee67570e4454bf00b3e5fe52f734",
+      "recency": 58,
+      "frequency": 1,
+      "monetary": 2337.4,
+      "segment": "New"
+    },
+    {
+      "customer": "c01158adcf91ee8f143d12388abe5f22",
+      "recency": 129,
+      "frequency": 1,
+      "monetary": 2333.97,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "e6fad5b1c79a4760aac5068d09c46535",
+      "recency": 53,
+      "frequency": 1,
+      "monetary": 2328.4,
+      "segment": "New"
+    },
+    {
+      "customer": "6a71207bf8784292ad3f6e107ab57755",
+      "recency": 119,
+      "frequency": 1,
+      "monetary": 2325.22,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "8bce6306eb006a2ff6135ba36d33d644",
+      "recency": 564,
+      "frequency": 1,
+      "monetary": 2324.99,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c7794313e2cd53472b116a751350f132",
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 2323.25,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "8a8ac60fd8ea25925f379a33ef277987",
+      "recency": 63,
+      "frequency": 1,
+      "monetary": 2322.32,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "352edc42ddf92161e32abb07872de623",
+      "recency": 299,
+      "frequency": 1,
+      "monetary": 2315.83,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bd90c3e19e58ff2439e72b0554026418",
+      "recency": 162,
+      "frequency": 1,
+      "monetary": 2314.82,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "00c07da5ba0e07b4f248a3a373b07476",
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 2304.68,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "6ddbc64bd04d40f7768ff088d94cbeb8",
+      "recency": 190,
+      "frequency": 2,
+      "monetary": 2299.66,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "ec4b05ce75316354ba9b297f64377ed6",
+      "recency": 529,
+      "frequency": 1,
+      "monetary": 2288.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "559026a1299bd2ede976c8d516d92258",
+      "recency": 229,
+      "frequency": 1,
+      "monetary": 2276.1,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "03adb96012772d4374285b6a701f3da9",
+      "recency": 429,
+      "frequency": 1,
+      "monetary": 2269.98,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fa094305fdb6062436c99adba7d53dde",
+      "recency": 92,
+      "frequency": 1,
+      "monetary": 2267.28,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7dd0031f1da839843abbcda4e9fb317b",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 2267.18,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0a5dadb73145d29f42f703c97c377ae8",
+      "recency": 41,
+      "frequency": 1,
+      "monetary": 2266.61,
+      "segment": "New"
+    },
+    {
+      "customer": "a58b1fe8146940d706e5f07d73bc7d51",
+      "recency": 177,
+      "frequency": 1,
+      "monetary": 2264.9,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "698e1cf81d01a3d389d96145f7fa6df8",
+      "recency": 420,
+      "frequency": 1,
+      "monetary": 2262.8,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e79c794eb044c594d923722240125052",
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 2252.66,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "bd879722dc92d795d57264b3c1e09f6a",
+      "recency": 194,
+      "frequency": 1,
+      "monetary": 2241.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7c9a0402e884c791edf88646b7c20a82",
+      "recency": 91,
+      "frequency": 1,
+      "monetary": 2234.7,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "3d47f4368ccc8e1bb4c4a12dbda7111b",
+      "recency": 380,
+      "frequency": 1,
+      "monetary": 2234.66,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "10e1df2717597281c5cffa0e0a7ca7cb",
+      "recency": 63,
+      "frequency": 1,
+      "monetary": 2225.69,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1a3a962a15f8c6ee0178e1102387d3cc",
+      "recency": 127,
+      "frequency": 1,
+      "monetary": 2223.12,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9d15276f07200ca33bdd7eab12ba67ad",
+      "recency": 169,
+      "frequency": 1,
+      "monetary": 2220.32,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "bd8717655febcdf30f106e9f3cb24628",
+      "recency": 625,
+      "frequency": 1,
+      "monetary": 2217.99,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "14f5335a43420b92aa77e1f35ada3f42",
+      "recency": 164,
+      "frequency": 1,
+      "monetary": 2213.22,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1579133af5d1fadd0e5e37ec439ed1ec",
+      "recency": 166,
+      "frequency": 1,
+      "monetary": 2207.98,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "3895f60f6e6a89e5cfb7b72ffdcdf7e0",
+      "recency": 278,
+      "frequency": 1,
+      "monetary": 2204.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c402f431464c72e27330a67f7b94d4fb",
+      "recency": 237,
+      "frequency": 1,
+      "monetary": 2202.4,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "25d6024f1eadd97cf86cfcfb7e9617dd",
+      "recency": 582,
+      "frequency": 1,
+      "monetary": 2190.4,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "25d558c329b841732700cb45b86260cf",
+      "recency": 114,
+      "frequency": 1,
+      "monetary": 2187.42,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9db254a87951220e74c58549749cf128",
+      "recency": 54,
+      "frequency": 1,
+      "monetary": 2187.42,
+      "segment": "New"
+    },
+    {
+      "customer": "3cdadaf84a996b3f07ccfcf9796f1dfd",
+      "recency": 137,
+      "frequency": 1,
+      "monetary": 2183.6,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "287a7cdacbcda8f842d7719e77cb8457",
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 2183.15,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "669e44130af1f9e6d3523ab852672374",
+      "recency": 573,
+      "frequency": 1,
+      "monetary": 2168.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1da09dd64e235e7c2f29a4faff33535c",
+      "recency": 279,
+      "frequency": 3,
+      "monetary": 2164.4,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "02e8a66528e84b3ca6150d9b1e03a26f",
+      "recency": 115,
+      "frequency": 1,
+      "monetary": 2158.57,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "e0a7e61d37dd4060ab419bdb93a9f05d",
+      "recency": 74,
+      "frequency": 1,
+      "monetary": 2155.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "60055ae4e5bdcbf7d567809728def6ed",
+      "recency": 402,
+      "frequency": 1,
+      "monetary": 2154.82,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "12ebfdb41392890f9d7a8de957274741",
+      "recency": 150,
+      "frequency": 1,
+      "monetary": 2153.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ea6f9323b5f8d196980fa72fb91546d0",
+      "recency": 196,
+      "frequency": 1,
+      "monetary": 2153.35,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b26746dace6d5d8633283ef402271974",
+      "recency": 196,
+      "frequency": 1,
+      "monetary": 2153.35,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "445e36c0849ad359c7b6d99786c3357c",
+      "recency": 166,
+      "frequency": 1,
+      "monetary": 2153.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c77dde0ffa573d733a5afe93774246ec",
+      "recency": 283,
+      "frequency": 1,
+      "monetary": 2152.92,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3baa1dfebd3d28ccc8cdbf5d9faa7602",
+      "recency": 126,
+      "frequency": 1,
+      "monetary": 2151.29,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "cad51aa032a0834a45c27586bce31d1c",
+      "recency": 518,
+      "frequency": 1,
+      "monetary": 2150.81,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "46e8adbe1802b0aa1d172eb1a4eba9fe",
+      "recency": 335,
+      "frequency": 1,
+      "monetary": 2150.22,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "00adeda9b742746c0c66e10d00ea1b74",
+      "recency": 344,
+      "frequency": 1,
+      "monetary": 2148.4,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8a8a3b96590da699865fa7e07e0e08ff",
+      "recency": 146,
+      "frequency": 1,
+      "monetary": 2133.69,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ba0fed3e80432a2a1679d58a24732c93",
+      "recency": 492,
+      "frequency": 1,
+      "monetary": 2125.19,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "afc8f3a11a809a74e5eef0bda1de6b9c",
+      "recency": 166,
+      "frequency": 1,
+      "monetary": 2124.78,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0c3dbe243398d9af58ac1a6d27cbe004",
+      "recency": 572,
+      "frequency": 1,
+      "monetary": 2116.01,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e8258022c5060b1f3d861556a17fd741",
+      "recency": 70,
+      "frequency": 1,
+      "monetary": 2115.79,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "87566fe4966777f59b86e1313f177587",
+      "recency": 157,
+      "frequency": 1,
+      "monetary": 2115.05,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c705e3b98b76bd8e56d09625ac94216a",
+      "recency": 175,
+      "frequency": 1,
+      "monetary": 2114.63,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "2621b577faf30c524ef1f0fff766a575",
+      "recency": 562,
+      "frequency": 1,
+      "monetary": 2111.57,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "82cd8a647fc34614fde430b3285b913e",
+      "recency": 189,
+      "frequency": 1,
+      "monetary": 2110.57,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "af17def00ed5fb1ccbebfe805b0bb641",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 2106.55,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "2f99070486aafcc5dac7a979c1ed5f32",
+      "recency": 172,
+      "frequency": 1,
+      "monetary": 2105.57,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7de6d654e4d5b71483c3799468bc27e6",
+      "recency": 63,
+      "frequency": 1,
+      "monetary": 2098.4,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ea1c9b1a4cc63f26f5a165203a4ebd4f",
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 2096.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "92ce8d58d57d7a8f8b2d5ca4b9810b64",
+      "recency": 194,
+      "frequency": 1,
+      "monetary": 2094.44,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "59bfe97acaf7979ebbc663af8bb1827d",
+      "recency": 266,
+      "frequency": 1,
+      "monetary": 2092.86,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ef7361e14a64f77990f58e9c571e2f9a",
+      "recency": 234,
+      "frequency": 1,
+      "monetary": 2091.33,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "44975ad30406e58b8c7f2a8dae4c46f8",
+      "recency": 364,
+      "frequency": 1,
+      "monetary": 2083.09,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "963fee8d1953b0f2bc792a06043fb11c",
+      "recency": 105,
+      "frequency": 1,
+      "monetary": 2082.36,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "83486a65903aefe02ed3bac7c23b5f65",
+      "recency": 141,
+      "frequency": 1,
+      "monetary": 2075.48,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "73601b1eec55943e90ce8d61253d5c09",
+      "recency": 350,
+      "frequency": 2,
+      "monetary": 2068.68,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "fffcf5a5ff07b0908bd4e2dbc735a684",
+      "recency": 495,
+      "frequency": 1,
+      "monetary": 2067.42,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5e5a9e721cb83187f5893a8c7109faee",
+      "recency": 356,
+      "frequency": 1,
+      "monetary": 2066.34,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f28efe52152019a633891bfdb679886e",
+      "recency": 120,
+      "frequency": 1,
+      "monetary": 2065.77,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "918c2334c6537fd745c6aea1e3fe54f8",
+      "recency": 427,
+      "frequency": 1,
+      "monetary": 2065.35,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "efb14cc2969129e2d865bc75be239916",
+      "recency": 483,
+      "frequency": 1,
+      "monetary": 2064.88,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6cba2fea42066c8781a30cd92826317c",
+      "recency": 175,
+      "frequency": 1,
+      "monetary": 2060.51,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "3d60952351a48ae05804341ab1e3f7fa",
+      "recency": 278,
+      "frequency": 1,
+      "monetary": 2060.2,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "613835be7274f39d246f0c9c264ca132",
+      "recency": 274,
+      "frequency": 1,
+      "monetary": 2060.2,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8831da2a67b7007cd92faef855f9fb52",
+      "recency": 154,
+      "frequency": 1,
+      "monetary": 2055.84,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "e197b5ef3ad3220f87041f2475b37c81",
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 2048.12,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b0c3cd877e81291a25eb0be8b1919458",
+      "recency": 127,
+      "frequency": 1,
+      "monetary": 2045.47,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "921d58c81068176026975777ae295c05",
+      "recency": 405,
+      "frequency": 1,
+      "monetary": 2039.44,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "26745aefcbade7bf038c84f9529ba5b1",
+      "recency": 353,
+      "frequency": 1,
+      "monetary": 2039.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6d394722d5fc5e721aee6875a218d8db",
+      "recency": 347,
+      "frequency": 1,
+      "monetary": 2039.2,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "af366f48405f787edafa83d61e9ab5c5",
+      "recency": 490,
+      "frequency": 1,
+      "monetary": 2036.86,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a7acd7f8aefc1d48f618e3f15c5e327b",
+      "recency": 160,
+      "frequency": 1,
+      "monetary": 2036.04,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "18d3c0c7617e44eab9bef19f29bbdb1b",
+      "recency": 485,
+      "frequency": 1,
+      "monetary": 2035.86,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5330670c6666e6f35a2688802fdb235f",
+      "recency": 456,
+      "frequency": 1,
+      "monetary": 2034.48,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3d81d4e0977945889ce7eee309a884c5",
+      "recency": 160,
+      "frequency": 1,
+      "monetary": 2034.31,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "a5854c79718864cb7023094de2c0f8f8",
+      "recency": 485,
+      "frequency": 1,
+      "monetary": 2033.48,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "82c0c03a1fb8968a30707374c8566fba",
+      "recency": 323,
+      "frequency": 1,
+      "monetary": 2032.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5a04d5472eb5ee998250f0977b31f772",
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 2032.0,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "75a8083e27e7af87d890db460e048efa",
+      "recency": 330,
+      "frequency": 1,
+      "monetary": 2031.47,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a813e96ecd044395587037a8314a4151",
+      "recency": 107,
+      "frequency": 1,
+      "monetary": 2031.09,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "af4add6ae61530f1768eef38c9a52c05",
+      "recency": 490,
+      "frequency": 1,
+      "monetary": 2029.62,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b8b32554df7a612f3aefb40b44653a4d",
+      "recency": 334,
+      "frequency": 1,
+      "monetary": 2028.75,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "10080cf8d46d43de1133521a8567b153",
+      "recency": 226,
+      "frequency": 1,
+      "monetary": 2028.65,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0bc62798218b7ebd8849210c509efe1d",
+      "recency": 310,
+      "frequency": 1,
+      "monetary": 2027.65,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9cb4965f1caae128f5a82f1345e2e8bc",
+      "recency": 166,
+      "frequency": 1,
+      "monetary": 2027.26,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "8f86544c8854a0d0b347511a24981b77",
+      "recency": 358,
+      "frequency": 1,
+      "monetary": 2027.23,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ee10b948f421cd32fab5283f814d0b78",
+      "recency": 564,
+      "frequency": 1,
+      "monetary": 2027.16,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6ead799d8a12f9095ab29409be2aa075",
+      "recency": 486,
+      "frequency": 1,
+      "monetary": 2026.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "03d1be27ccf6d46178ecd2ad2cc1db10",
+      "recency": 488,
+      "frequency": 1,
+      "monetary": 2026.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4c4645e724402ec958ead69dbf1ade6c",
+      "recency": 486,
+      "frequency": 1,
+      "monetary": 2026.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "02b6ef845021b8fefe19c8d200f3ee06",
+      "recency": 197,
+      "frequency": 1,
+      "monetary": 2024.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a3331aa44b50207a2f580848a07f0a6f",
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 2023.58,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1d4ef611a25dabe55d41c22881c14fb0",
+      "recency": 370,
+      "frequency": 1,
+      "monetary": 2023.58,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7c82b91749355c6daebaada73da54e2e",
+      "recency": 628,
+      "frequency": 1,
+      "monetary": 2023.0,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "921972f1568c1c75a26b18b4cb4ed5a7",
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 2022.33,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "28f6c5e53f39cd45ccd6b22fc82cd1d1",
+      "recency": 156,
+      "frequency": 1,
+      "monetary": 2022.02,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "906a8a4ec9f3d4c3e64fa6d1c4fe6009",
+      "recency": 89,
+      "frequency": 2,
+      "monetary": 2020.86,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "527f7f3237fb1397c459701bc765b6f0",
+      "recency": 523,
+      "frequency": 1,
+      "monetary": 2017.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a22ee6bd65e350c2d1a0d9a12c2e465f",
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 2014.99,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "15be5104d4c41b5e0dada09bfa5215d9",
+      "recency": 366,
+      "frequency": 1,
+      "monetary": 2009.62,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0341bbd5c969923a0f801b9e2d10a7b8",
+      "recency": 140,
+      "frequency": 2,
+      "monetary": 1999.68,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "15dcd36d3c50ae6540aa942684f51824",
+      "recency": 303,
+      "frequency": 1,
+      "monetary": 1996.32,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6e328f26167e5c9f1c9ac765e6e95f4d",
+      "recency": 145,
+      "frequency": 1,
+      "monetary": 1995.69,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ee4fb55368c4c4fa5069f4c7cbe0ed2e",
+      "recency": 127,
+      "frequency": 1,
+      "monetary": 1992.42,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "fec38f6590f4d8e78563eacd15f0413c",
+      "recency": 192,
+      "frequency": 1,
+      "monetary": 1989.96,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a7ca51c5d161c34444a45ff503b78b0c",
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 1989.75,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "237beb4b0ae00c80268b9b894ed3f65a",
+      "recency": 233,
+      "frequency": 1,
+      "monetary": 1981.22,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8637975a0cb5150b10528f5697511668",
+      "recency": 525,
+      "frequency": 1,
+      "monetary": 1980.71,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a0cd1f3e0a9259b6dd8ec0ed4f63a63e",
+      "recency": 74,
+      "frequency": 1,
+      "monetary": 1978.18,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "e09ede1057212120a291c4fa1f832c63",
+      "recency": 574,
+      "frequency": 1,
+      "monetary": 1966.91,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a1bd814d14be56675c1201a1a28a6e64",
+      "recency": 399,
+      "frequency": 1,
+      "monetary": 1963.97,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ea10c984e50edffb58668706bd0bbfc2",
+      "recency": 193,
+      "frequency": 1,
+      "monetary": 1963.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f2a9c45fecbca38c65837639d0e1c0f2",
+      "recency": 177,
+      "frequency": 1,
+      "monetary": 1963.14,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f444ba0d223518973d2ab5ee663bfd9a",
+      "recency": 189,
+      "frequency": 1,
+      "monetary": 1963.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "69b2b29382af03e03e486ad307a76000",
+      "recency": 625,
+      "frequency": 1,
+      "monetary": 1961.0,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ca9ff40e3d69e5ffc34a46ed9b91451c",
+      "recency": 199,
+      "frequency": 1,
+      "monetary": 1951.95,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e3fe811011101628e80a7953f1244c8d",
+      "recency": 86,
+      "frequency": 1,
+      "monetary": 1950.2,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "244024d753ef305e66b7ef97f3813ebd",
+      "recency": 541,
+      "frequency": 1,
+      "monetary": 1949.52,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e650a740f366df1d65e17eeda8cccb43",
+      "recency": 528,
+      "frequency": 1,
+      "monetary": 1944.86,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3a205021b542565ebf170c0ec55783d9",
+      "recency": 442,
+      "frequency": 1,
+      "monetary": 1942.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9b661514ad84d0489ac73d9e24cbf169",
+      "recency": 409,
+      "frequency": 1,
+      "monetary": 1942.0,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9410c05c403cf6b73c071fa50c8ae641",
+      "recency": 485,
+      "frequency": 1,
+      "monetary": 1938.74,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b25c74b16e09b4a3390a6db984004c44",
+      "recency": 159,
+      "frequency": 1,
+      "monetary": 1937.64,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "994e2b50ade6ead19626283999638f25",
+      "recency": 128,
+      "frequency": 1,
+      "monetary": 1936.99,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "b8ca2e14188d8a3ebd2da5dfccb5725d",
+      "recency": 396,
+      "frequency": 1,
+      "monetary": 1936.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5a7881e38b4a49918a70658e1dd42a09",
+      "recency": 595,
+      "frequency": 1,
+      "monetary": 1936.27,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7530369a1ddf13882910895b0559423d",
+      "recency": 84,
+      "frequency": 1,
+      "monetary": 1930.34,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "bb68ab36f08cea9dece50c4d5f63e1ca",
+      "recency": 108,
+      "frequency": 1,
+      "monetary": 1927.38,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "d77f9e20bf24f723cb3d4472a1d1b837",
+      "recency": 512,
+      "frequency": 1,
+      "monetary": 1925.81,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ac32c69c438fa163767f5aa5c4d0b6e1",
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 1925.77,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1a3d1e8b28c0ee27c23333ee108c47e6",
+      "recency": 111,
+      "frequency": 1,
+      "monetary": 1924.03,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c5365631fcd0f5ae1802e798e1b7d692",
+      "recency": 383,
+      "frequency": 1,
+      "monetary": 1916.96,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "14cf3e40a2b5076d2d0384a7e68ca06f",
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 1916.08,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "95376669d92be6a7dcf0494e0b1d9917",
+      "recency": 121,
+      "frequency": 1,
+      "monetary": 1915.53,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "cd020f72b3994d3dda2f464efe9aa99b",
+      "recency": 159,
+      "frequency": 1,
+      "monetary": 1915.13,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "cef29e793e232d30250331804cdb7000",
+      "recency": 271,
+      "frequency": 3,
+      "monetary": 1906.68,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "e7ed4f9558a25b5403b41224518d052a",
+      "recency": 197,
+      "frequency": 1,
+      "monetary": 1902.55,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9df040be9d7656d4c912b62472bfcf05",
+      "recency": 527,
+      "frequency": 1,
+      "monetary": 1901.62,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "025cf7c2f32536f0be1ab412bb6602d2",
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 1898.61,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "66ec2bc0802dd4fa439e49dcfcf813b6",
+      "recency": 282,
+      "frequency": 1,
+      "monetary": 1898.27,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "336e748851ceb9da362d2d5e0b2f4b85",
+      "recency": 313,
+      "frequency": 1,
+      "monetary": 1894.41,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9654d6df6a63f5a9b61dd5ba0e0d8286",
+      "recency": 155,
+      "frequency": 1,
+      "monetary": 1891.63,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7e1dc025d12dd45046852917926fbd2e",
+      "recency": 504,
+      "frequency": 1,
+      "monetary": 1878.39,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "94bbded6a4ac8a3dd9887f99861bf608",
+      "recency": 425,
+      "frequency": 1,
+      "monetary": 1877.84,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "196fb9c6acb3d8e681f6691d596a21fb",
+      "recency": 266,
+      "frequency": 1,
+      "monetary": 1872.26,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "62a71b17bb35ca8351f0ab4fdc7a3354",
+      "recency": 126,
+      "frequency": 1,
+      "monetary": 1871.64,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1ee27e3ae93ad59224094a4ea0c71dc2",
+      "recency": 191,
+      "frequency": 1,
+      "monetary": 1869.8,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0c2fa77ed1433d1b2ed06724ed0d5237",
+      "recency": 202,
+      "frequency": 1,
+      "monetary": 1867.85,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "93bc212addb25a5f5139fded3c2ee6b3",
+      "recency": 377,
+      "frequency": 1,
+      "monetary": 1866.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fafe2f8e0b7065fef995698ef3809fec",
+      "recency": 86,
+      "frequency": 1,
+      "monetary": 1861.26,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "74a63835c6e5eaef19af58cc83f663aa",
+      "recency": 86,
+      "frequency": 1,
+      "monetary": 1859.1,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "23841d4abf4583dec7773f3bd2fe267d",
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 1853.75,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1eb6f015c37dc8e3f5b531fbca809a49",
+      "recency": 158,
+      "frequency": 1,
+      "monetary": 1843.85,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "b12294f6bca2370dc2f2a46cdc484076",
+      "recency": 80,
+      "frequency": 1,
+      "monetary": 1841.75,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "01858f2fad256b1689f5bdafc059f745",
+      "recency": 77,
+      "frequency": 1,
+      "monetary": 1841.11,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "18360e41b00709cc7b2c6f391eff829e",
+      "recency": 120,
+      "frequency": 1,
+      "monetary": 1839.05,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "15fbc48df691e0ad51b0cf30d86392a2",
+      "recency": 629,
+      "frequency": 1,
+      "monetary": 1837.16,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "89b692db0c2020ee873dbf261d941543",
+      "recency": 92,
+      "frequency": 1,
+      "monetary": 1832.54,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "8d434defc893fd9ac17fabd1462cbce3",
+      "recency": 154,
+      "frequency": 1,
+      "monetary": 1830.99,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "35dac57557b3ffbf2f231d3c1483fde1",
+      "recency": 248,
+      "frequency": 1,
+      "monetary": 1830.9,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "604b4fd4dd22b3811eca8c2d4f1f63c5",
+      "recency": 499,
+      "frequency": 1,
+      "monetary": 1830.12,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8ac03172dc8e36a4c5e0b694ef3235aa",
+      "recency": 146,
+      "frequency": 1,
+      "monetary": 1828.41,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f3c029ccbdd765b8e63b881af42f3d4b",
+      "recency": 202,
+      "frequency": 1,
+      "monetary": 1827.72,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d61c923fff01b0e448672a2159ed5757",
+      "recency": 512,
+      "frequency": 1,
+      "monetary": 1826.34,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0326524848da9311350236471586bd61",
+      "recency": 595,
+      "frequency": 1,
+      "monetary": 1826.07,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "13fb439d0a2aae1e3200ccb4dc9b37e7",
+      "recency": 250,
+      "frequency": 1,
+      "monetary": 1821.87,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6ae98e2bdf8d09e86cd16479fa511f9e",
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 1821.82,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "375e0bdb5dfb2610e71cf15f8f421ccb",
+      "recency": 592,
+      "frequency": 1,
+      "monetary": 1818.23,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0adb59a4ec552b5ea48414b79861e292",
+      "recency": 240,
+      "frequency": 1,
+      "monetary": 1817.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "66b219a06a37d7129406e32d295a46fb",
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 1816.11,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c40698869e63dc7c57f3f66e767e7287",
+      "recency": 220,
+      "frequency": 1,
+      "monetary": 1814.29,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bf31713750139aba4c36772dc9459f44",
+      "recency": 337,
+      "frequency": 1,
+      "monetary": 1812.33,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "798c34ffa9047399853eab8ca7c0b9a0",
+      "recency": 316,
+      "frequency": 2,
+      "monetary": 1812.19,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "6d3c02f03efc71b44d52999fc95fc86e",
+      "recency": 572,
+      "frequency": 1,
+      "monetary": 1810.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6e47014313b6b80ef3dd44568083862e",
+      "recency": 539,
+      "frequency": 1,
+      "monetary": 1806.68,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "77c404a3e8a4ee3808befcc4663ac123",
+      "recency": 219,
+      "frequency": 1,
+      "monetary": 1804.05,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f3140df89d24aa120f087331fe18f773",
+      "recency": 243,
+      "frequency": 1,
+      "monetary": 1803.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ac0ec8bdce394d27bc6c91549f2b5091",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 1798.01,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "21b7e7811ddc742cba9b74aaf89fb281",
+      "recency": 128,
+      "frequency": 1,
+      "monetary": 1797.73,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "280bf653e57167086c1a8ffd18b03ab1",
+      "recency": 565,
+      "frequency": 1,
+      "monetary": 1793.23,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "38e482d7770a43f5929378c4dec76d5e",
+      "recency": 62,
+      "frequency": 1,
+      "monetary": 1789.02,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "26ad70987fa3435c6279b8c3a5f4980c",
+      "recency": 376,
+      "frequency": 1,
+      "monetary": 1787.72,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c11f76d3806da64a4c64ea47627444e2",
+      "recency": 165,
+      "frequency": 1,
+      "monetary": 1784.2,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9cde2485320efdd065a76233a3612623",
+      "recency": 308,
+      "frequency": 1,
+      "monetary": 1783.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d3fcacda5a49565a7c1b8a6c0e03bb02",
+      "recency": 207,
+      "frequency": 1,
+      "monetary": 1783.44,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "525cda9909aa001ebed396f6e55eae01",
+      "recency": 70,
+      "frequency": 2,
+      "monetary": 1782.9,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "4550984876a4424451525c6854a996d4",
+      "recency": 612,
+      "frequency": 1,
+      "monetary": 1782.55,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "85b483b4f7f7bb9fe94d3ece0a3cab93",
+      "recency": 267,
+      "frequency": 1,
+      "monetary": 1778.01,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "141b3509663d0e6c8735da7d62fcfe16",
+      "recency": 306,
+      "frequency": 1,
+      "monetary": 1775.26,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d3bf48abdd573e74110b3e79d7b07ed1",
+      "recency": 410,
+      "frequency": 1,
+      "monetary": 1770.72,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b3879dce6b4a3b94b748b6c9b567695e",
+      "recency": 71,
+      "frequency": 1,
+      "monetary": 1768.4,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "20a5257c01689ac69410a14cb51bb447",
+      "recency": 400,
+      "frequency": 1,
+      "monetary": 1767.1,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ac507528f385811a6feb0e3e1fe0afad",
+      "recency": 384,
+      "frequency": 1,
+      "monetary": 1761.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4facc2e6fbc2bffab2fea92d2b4aa7e4",
+      "recency": 64,
+      "frequency": 4,
+      "monetary": 1760.75,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "082f4a93605df980ab01581db54640d3",
+      "recency": 96,
+      "frequency": 1,
+      "monetary": 1759.26,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c9b33c9f1440ff1ebc8d4fe9b182614e",
+      "recency": 210,
+      "frequency": 1,
+      "monetary": 1759.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "cd89e1b4b06880d8ea145f4b3da8e4a5",
+      "recency": 528,
+      "frequency": 1,
+      "monetary": 1757.41,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "397b44d5bb99eabf54ea9c2b41ebb905",
+      "recency": 121,
+      "frequency": 4,
+      "monetary": 1756.53,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "910f0afb84bc778e856d3683c7e8a46a",
+      "recency": 81,
+      "frequency": 1,
+      "monetary": 1756.1,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9770456b4233cdf2363287ca2295650a",
+      "recency": 336,
+      "frequency": 1,
+      "monetary": 1755.35,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7da11710b7b7aeebec5c91a6057c9969",
+      "recency": 380,
+      "frequency": 1,
+      "monetary": 1755.21,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f6255a326ff4c43107bc0f42f433be94",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 1740.39,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "60a22f2188cd2b544c45f103d0e00539",
+      "recency": 397,
+      "frequency": 2,
+      "monetary": 1740.21,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "a1a9e43decb5941c1fc7f7c5fd507c5d",
+      "recency": 98,
+      "frequency": 1,
+      "monetary": 1738.17,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "a1044dd75b74fbc485b040575a14acf0",
+      "recency": 300,
+      "frequency": 2,
+      "monetary": 1737.88,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "10811ce4adce690edaf95b2e8eb3845a",
+      "recency": 225,
+      "frequency": 1,
+      "monetary": 1736.3,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4d32ae832a9e254bda80dac89fd37afb",
+      "recency": 146,
+      "frequency": 1,
+      "monetary": 1733.7,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "2c32247bb780398fedc970dfa0832e25",
+      "recency": 468,
+      "frequency": 1,
+      "monetary": 1733.34,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6aa828fc903b810472cff927dd42b500",
+      "recency": 175,
+      "frequency": 1,
+      "monetary": 1730.87,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "a43af8fbe622cbe4be01322821f61145",
+      "recency": 215,
+      "frequency": 1,
+      "monetary": 1730.87,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4e284eec447afc7c7d56adeda4bba178",
+      "recency": 398,
+      "frequency": 1,
+      "monetary": 1730.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "2f0ce2fb407114dbfa866f22c7cf9e9d",
+      "recency": 197,
+      "frequency": 1,
+      "monetary": 1729.98,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "42f1fdf511aeb359f56e375cae330892",
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 1728.81,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9fc8316f4c0d0601664216e0a9327ed5",
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 1727.67,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "132f423dc424a05048538d51a18301d2",
+      "recency": 232,
+      "frequency": 1,
+      "monetary": 1725.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "dda7d094a7c887911a9f6cadf698c5b9",
+      "recency": 273,
+      "frequency": 1,
+      "monetary": 1724.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1d10557878391272c010c263dba24b66",
+      "recency": 563,
+      "frequency": 1,
+      "monetary": 1719.92,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "55b2d632bc5b7859767c1efd222c1659",
+      "recency": 276,
+      "frequency": 1,
+      "monetary": 1714.21,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f94b83157ce2162d5eabd54f242d6065",
+      "recency": 355,
+      "frequency": 1,
+      "monetary": 1714.02,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "da4f111c2d1cbf0d1a861edac906e48f",
+      "recency": 271,
+      "frequency": 1,
+      "monetary": 1711.63,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d233f180804b66001abae78d15d37d10",
+      "recency": 377,
+      "frequency": 1,
+      "monetary": 1710.18,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5a494c648fde2d1ec4eb614274ea7159",
+      "recency": 222,
+      "frequency": 2,
+      "monetary": 1703.38,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "79dbe8f7d2cd77fc463cfb663ab1375c",
+      "recency": 71,
+      "frequency": 1,
+      "monetary": 1702.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "aa1d9bb16c635762854fcd37dd575662",
+      "recency": 526,
+      "frequency": 1,
+      "monetary": 1698.56,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "92fb5b65fbbdfe7d8e55e53e0af5a971",
+      "recency": 507,
+      "frequency": 1,
+      "monetary": 1697.45,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "598338796239e698c67fb95bc368de07",
+      "recency": 256,
+      "frequency": 1,
+      "monetary": 1693.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "145f5c920dcccbb95081ceaa800df82e",
+      "recency": 377,
+      "frequency": 1,
+      "monetary": 1692.59,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5bc4d654dc4eb95cbd977eafadb38383",
+      "recency": 278,
+      "frequency": 1,
+      "monetary": 1692.05,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "923c196bd8ad794e9d13679e356c43df",
+      "recency": 397,
+      "frequency": 1,
+      "monetary": 1690.95,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f4c57f34e3dc2a6a23a529cf0ff17ff8",
+      "recency": 268,
+      "frequency": 1,
+      "monetary": 1683.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "a9c1cbcf83ec6e290888cae660e49436",
+      "recency": 559,
+      "frequency": 1,
+      "monetary": 1682.92,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "079ad4f138ec38e726e7d9ac51ae1410",
+      "recency": 226,
+      "frequency": 1,
+      "monetary": 1680.25,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b8521fd4a5dbdf907f969af459a46838",
+      "recency": 536,
+      "frequency": 1,
+      "monetary": 1679.63,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3bd9e0cb53a95db314b55aa82f814502",
+      "recency": 291,
+      "frequency": 1,
+      "monetary": 1677.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c8639255be49cc9a738ca337bcf2833f",
+      "recency": 173,
+      "frequency": 1,
+      "monetary": 1675.71,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "c169c9937db997a267f749cdd64c161f",
+      "recency": 526,
+      "frequency": 2,
+      "monetary": 1675.68,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "ff0e4a6f3114ad1d211b885159bf1eb2",
+      "recency": 564,
+      "frequency": 1,
+      "monetary": 1672.67,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "2d0151326be4a97cbfbc8bdcef558e10",
+      "recency": 183,
+      "frequency": 1,
+      "monetary": 1672.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "28e7419981c810e071e0f6b061129fbc",
+      "recency": 212,
+      "frequency": 1,
+      "monetary": 1672.06,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fac9eb2c3c550f64f779646726710b59",
+      "recency": 276,
+      "frequency": 1,
+      "monetary": 1668.74,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e0c3bef7c7e5679c7776c40abec7fe2b",
+      "recency": 222,
+      "frequency": 1,
+      "monetary": 1662.02,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ba3f35c1ecbfcbac6854edf5ffcc198d",
+      "recency": 409,
+      "frequency": 1,
+      "monetary": 1659.84,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5a1f8efaa6ce666e9622bf2e22c42aac",
+      "recency": 200,
+      "frequency": 1,
+      "monetary": 1658.81,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3d16d54112c57c93d5bfaf6b395b3f0f",
+      "recency": 393,
+      "frequency": 1,
+      "monetary": 1658.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9fca9eeea062d51882419081f80ba5e2",
+      "recency": 557,
+      "frequency": 1,
+      "monetary": 1657.57,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "0b8f48c242246419f92b6c43b0165010",
+      "recency": 345,
+      "frequency": 1,
+      "monetary": 1657.11,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c89e2005ddcd889c687343e2a7d7a115",
+      "recency": 73,
+      "frequency": 1,
+      "monetary": 1655.6,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "061e0d9d23f099ebcc78d1c90f94dfbe",
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 1654.46,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "87c9e7ba960e4c2e6bd786b162adc639",
+      "recency": 157,
+      "frequency": 2,
+      "monetary": 1653.98,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "99f125422e3e42df876a689e8e217798",
+      "recency": 381,
+      "frequency": 1,
+      "monetary": 1653.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "67d859ff554d120ac0826e97df1175d1",
+      "recency": 380,
+      "frequency": 1,
+      "monetary": 1653.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "cb6224938ef72376e7f5183777032fea",
+      "recency": 387,
+      "frequency": 1,
+      "monetary": 1653.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bdd88e5f6a6810d95baef27f2f6055fe",
+      "recency": 378,
+      "frequency": 1,
+      "monetary": 1653.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3d16152c514410c047904cd433439892",
+      "recency": 423,
+      "frequency": 1,
+      "monetary": 1650.56,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d1aef037cd06ae9e8018d05efd0ed17a",
+      "recency": 581,
+      "frequency": 1,
+      "monetary": 1648.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6d8ee4a9676fc8b41d3edc2a1eb46579",
+      "recency": 210,
+      "frequency": 1,
+      "monetary": 1645.82,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5993c0ed4bc51b72a8332bb7fa4303c5",
+      "recency": 99,
+      "frequency": 1,
+      "monetary": 1644.76,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0a8ddbf973510e50bdbfd4300dd90385",
+      "recency": 468,
+      "frequency": 1,
+      "monetary": 1644.57,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c1099629bd44f439554021f60cdb120c",
+      "recency": 320,
+      "frequency": 1,
+      "monetary": 1644.36,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "23b8272c10c49458eac0b8626f0666ca",
+      "recency": 375,
+      "frequency": 1,
+      "monetary": 1643.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "67031f3c7bc5f28dd7b6344294b4ffec",
+      "recency": 376,
+      "frequency": 1,
+      "monetary": 1643.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ae4b37b37bb22e37fe34ada808837207",
+      "recency": 490,
+      "frequency": 1,
+      "monetary": 1643.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "03fe4b83d144beca992a5e3cffbdb5e6",
+      "recency": 280,
+      "frequency": 1,
+      "monetary": 1642.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "36d7df3b5d8326ec792859208e53ac93",
+      "recency": 334,
+      "frequency": 1,
+      "monetary": 1642.11,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b533e550675cfa12227a15e554a33714",
+      "recency": 572,
+      "frequency": 1,
+      "monetary": 1641.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b0ee09a612abb2a24044216adc08b665",
+      "recency": 384,
+      "frequency": 1,
+      "monetary": 1640.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3e2dfa26943efe5cf2f76a725b6675a7",
+      "recency": 126,
+      "frequency": 1,
+      "monetary": 1638.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "12138e8ba93973c9b561253683f5581b",
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 1638.35,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "d1c843178ca07004edbe2ac277b35bcc",
+      "recency": 379,
+      "frequency": 1,
+      "monetary": 1635.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "29a553dd8a1a0a22d1ee92263463abe9",
+      "recency": 375,
+      "frequency": 1,
+      "monetary": 1635.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fa03405c1fce3650144d97158b4b1849",
+      "recency": 384,
+      "frequency": 1,
+      "monetary": 1635.64,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "74092b9d4919431b8b4c02fd8569bccd",
+      "recency": 124,
+      "frequency": 1,
+      "monetary": 1635.54,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "13d04f61bea0332b8d69918a99e7fb22",
+      "recency": 253,
+      "frequency": 1,
+      "monetary": 1635.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "3d7bc770cfdbe423eb80de6893a8e05e",
+      "recency": 569,
+      "frequency": 1,
+      "monetary": 1631.94,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "81238d4299b66d04234593c4a832773e",
+      "recency": 456,
+      "frequency": 1,
+      "monetary": 1629.33,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d184e6edddcb1c912ebed8bb8491fc85",
+      "recency": 254,
+      "frequency": 1,
+      "monetary": 1628.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c6b1d0d394ba367ae48f9bb69158231b",
+      "recency": 260,
+      "frequency": 1,
+      "monetary": 1628.6,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fe203d7588a60b447f5c5f089b967097",
+      "recency": 151,
+      "frequency": 1,
+      "monetary": 1628.07,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f6e8b25c5a0d2fc779a3415df14b2f88",
+      "recency": 376,
+      "frequency": 1,
+      "monetary": 1627.84,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ffba9f9dff87b05e310ecc46c8591044",
+      "recency": 597,
+      "frequency": 1,
+      "monetary": 1626.83,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ee1ab7f8a445e29acff592989e83a70a",
+      "recency": 114,
+      "frequency": 1,
+      "monetary": 1626.65,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9057341f069a7cd937c12cb1f46b6e81",
+      "recency": 382,
+      "frequency": 1,
+      "monetary": 1625.94,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8411ef4ebe0b18e75fd75efde5455e15",
+      "recency": 338,
+      "frequency": 1,
+      "monetary": 1623.94,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "72994e988788873a1df6dad43d38a2bd",
+      "recency": 572,
+      "frequency": 1,
+      "monetary": 1620.77,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "39bd660f04727f543f878c1e1103e2df",
+      "recency": 559,
+      "frequency": 1,
+      "monetary": 1620.77,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6411590d91c48640cb07e72fbb4a359e",
+      "recency": 211,
+      "frequency": 1,
+      "monetary": 1619.73,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b5d5805f04ae037ef5de0d12fbed7bab",
+      "recency": 421,
+      "frequency": 1,
+      "monetary": 1617.84,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "856cfe0bdb5bc7fad4061781400c54da",
+      "recency": 379,
+      "frequency": 1,
+      "monetary": 1605.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "650f945256ea49b526cede6f2dbb89a9",
+      "recency": 366,
+      "frequency": 1,
+      "monetary": 1605.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "43df16fc8bbc0499aa6bf4e582dfbb66",
+      "recency": 404,
+      "frequency": 1,
+      "monetary": 1603.25,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f0d3389b217aa61b5a66744ddd694cc3",
+      "recency": 226,
+      "frequency": 1,
+      "monetary": 1603.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "005226be8d5b972d0f72b4e8a79f322b",
+      "recency": 198,
+      "frequency": 1,
+      "monetary": 1600.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4c21c589db03eb65cbc452fc470850cf",
+      "recency": 453,
+      "frequency": 1,
+      "monetary": 1591.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fe81bb32c243a86b2f86fbf053fe6140",
+      "recency": 118,
+      "frequency": 5,
+      "monetary": 1590.76,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "262f884f74980c0ad26fcaab579a3294",
+      "recency": 404,
+      "frequency": 1,
+      "monetary": 1590.25,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fb94a0ec084fa8e33ec943992e3c6929",
+      "recency": 123,
+      "frequency": 1,
+      "monetary": 1589.57,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "fc24db02becd484accefaa5af59c18b1",
+      "recency": 114,
+      "frequency": 2,
+      "monetary": 1588.95,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "3629a4b18f2eb69e03f153158e48d2cc",
+      "recency": 265,
+      "frequency": 1,
+      "monetary": 1586.47,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8b20a60ae8a273e444118d6e8a7c3627",
+      "recency": 239,
+      "frequency": 1,
+      "monetary": 1584.96,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "057dbb60927c6bc5bf3ca3f2f23e447f",
+      "recency": 400,
+      "frequency": 1,
+      "monetary": 1583.71,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5eb539db8bad2407b71782f1d55a4826",
+      "recency": 559,
+      "frequency": 1,
+      "monetary": 1575.05,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "71150730b022797afd6a487820125da0",
+      "recency": 89,
+      "frequency": 1,
+      "monetary": 1570.79,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "08f334e84bc7ab7b588cb7fc77dd7f4a",
+      "recency": 63,
+      "frequency": 2,
+      "monetary": 1570.4,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "d941a608aa14794954f62d8c3da2b9dd",
+      "recency": 132,
+      "frequency": 1,
+      "monetary": 1570.21,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "ff6c9c45f6cee4ec0785650b18322d73",
+      "recency": 90,
+      "frequency": 1,
+      "monetary": 1568.72,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "1b3033b0a47ab66dfbe6607550bfe38d",
+      "recency": 300,
+      "frequency": 1,
+      "monetary": 1564.07,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "73e9c626827cd8c4bb38b55ab31d816e",
+      "recency": 97,
+      "frequency": 1,
+      "monetary": 1562.57,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9d0ace373bd69cc599d745b9d1a323c7",
+      "recency": 187,
+      "frequency": 1,
+      "monetary": 1556.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "301fdbdb88825096a683fcfacac44718",
+      "recency": 95,
+      "frequency": 1,
+      "monetary": 1556.67,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "71c99dc35fee93881af2d5a1edb24442",
+      "recency": 233,
+      "frequency": 1,
+      "monetary": 1555.23,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b3fc51a2057e04657dbe29f48f3ecaaa",
+      "recency": 198,
+      "frequency": 1,
+      "monetary": 1550.68,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4dba78a69f5fb2d5ba4bdf9696e1eb8f",
+      "recency": 162,
+      "frequency": 1,
+      "monetary": 1549.41,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0f5ac8d5c31de21d2f25e24be15bbffb",
+      "recency": 324,
+      "frequency": 2,
+      "monetary": 1544.82,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "3ec83b54e0afb70def9480cd6b9097f7",
+      "recency": 232,
+      "frequency": 2,
+      "monetary": 1544.76,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "81446cd6d7ceaddfc66d7ab9ec60aa55",
+      "recency": 188,
+      "frequency": 1,
+      "monetary": 1544.62,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "34cd0f2f38a66796cfbc8a33ece7448c",
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 1543.25,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9bd3a0d5aee992c5692a2a912a50d2fb",
+      "recency": 537,
+      "frequency": 1,
+      "monetary": 1541.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f94c00f0411b6a3e6cbde94b120fb786",
+      "recency": 503,
+      "frequency": 1,
+      "monetary": 1537.04,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4b3bb0581e463066eed601f1991b4f16",
+      "recency": 520,
+      "frequency": 1,
+      "monetary": 1535.22,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b64460d7d925960dcf9beefe03131679",
+      "recency": 361,
+      "frequency": 1,
+      "monetary": 1534.98,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6b2af0e98d36916cbc15761bf6048220",
+      "recency": 593,
+      "frequency": 1,
+      "monetary": 1534.58,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "608b221bbdb07cb279018c0dd04cc730",
+      "recency": 170,
+      "frequency": 1,
+      "monetary": 1533.62,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "85333adc71614d177d3ac54662b036b2",
+      "recency": 305,
+      "frequency": 1,
+      "monetary": 1530.5,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "231d36f5c4b238c26f449ffd98c79180",
+      "recency": 162,
+      "frequency": 2,
+      "monetary": 1529.26,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "b339a1ec295defef7cd27439c8718066",
+      "recency": 292,
+      "frequency": 1,
+      "monetary": 1528.99,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "04a46c134f7f3d15f7f4a20afbbd915f",
+      "recency": 309,
+      "frequency": 1,
+      "monetary": 1528.99,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6d73eb39c724d3cd0d45e9e1b6b963a9",
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 1528.03,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "b5585a338bb22b66f02541df26cbb9aa",
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 1528.03,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0cfb94f148a3f7b02123e6f64e6674f6",
+      "recency": 273,
+      "frequency": 1,
+      "monetary": 1527.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "caadc9a4b4dfe30f56f399821b71c6c3",
+      "recency": 349,
+      "frequency": 1,
+      "monetary": 1526.26,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b60a410d454528f9b70cd6fb479fba68",
+      "recency": 214,
+      "frequency": 1,
+      "monetary": 1525.78,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "7e251bdcd9072568271fe5b5b824b6be",
+      "recency": 409,
+      "frequency": 1,
+      "monetary": 1524.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f78a6b62ac5dc9638a4fa0fd5d7b94e1",
+      "recency": 217,
+      "frequency": 1,
+      "monetary": 1522.99,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "64ee3e71d9a27034db0c6a48c29d35d5",
+      "recency": 59,
+      "frequency": 1,
+      "monetary": 1521.75,
+      "segment": "New"
+    },
+    {
+      "customer": "ab14aff32b9c7c55378170003a076665",
+      "recency": 574,
+      "frequency": 1,
+      "monetary": 1520.77,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "87ff69ee0a94361f61fbd5e5699c5230",
+      "recency": 564,
+      "frequency": 1,
+      "monetary": 1520.77,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "6d887fdae7b23b09c8108f16900dab42",
+      "recency": 89,
+      "frequency": 1,
+      "monetary": 1520.71,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "361dc89b24a5dc808b2803a1ac33ff3f",
+      "recency": 182,
+      "frequency": 1,
+      "monetary": 1518.55,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b11b06cfbbd108f99b4ffa44e865b1f9",
+      "recency": 324,
+      "frequency": 1,
+      "monetary": 1517.7,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5b7b7009010e8dbf35aa64441cd01b25",
+      "recency": 220,
+      "frequency": 1,
+      "monetary": 1511.86,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "012a218df8995d3ec3bb221828360c86",
+      "recency": 121,
+      "frequency": 2,
+      "monetary": 1510.38,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "8e18da3436d8a163ab9540768a94b22d",
+      "recency": 384,
+      "frequency": 1,
+      "monetary": 1507.56,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "55ee0c6382f5b5f0b42a1fa608239e5f",
+      "recency": 436,
+      "frequency": 1,
+      "monetary": 1506.68,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ef068814b087cac3c1bb6cea58c98480",
+      "recency": 185,
+      "frequency": 1,
+      "monetary": 1506.05,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "8091550abd9ca29ba409a70cb640af4a",
+      "recency": 505,
+      "frequency": 1,
+      "monetary": 1504.61,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "1003a1d72627f1a71f255e239aaa4bfd",
+      "recency": 160,
+      "frequency": 1,
+      "monetary": 1501.45,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "fad1bbf902fbdf64f92f33d010ab8cb7",
+      "recency": 90,
+      "frequency": 1,
+      "monetary": 1500.19,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7fa6d33a71471ecc658fc9557bba75d9",
+      "recency": 267,
+      "frequency": 1,
+      "monetary": 1499.87,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "e7d3b17772a74209d76965c84d5b286d",
+      "recency": 103,
+      "frequency": 1,
+      "monetary": 1498.46,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "f5ae59564b848fb10564d9fe4a478465",
+      "recency": 295,
+      "frequency": 1,
+      "monetary": 1493.45,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "58f887ad477318fadcf6a93a1e24c076",
+      "recency": 124,
+      "frequency": 1,
+      "monetary": 1490.53,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "0f5f758216c397ef8237f5d1e236e9b8",
+      "recency": 350,
+      "frequency": 1,
+      "monetary": 1489.47,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "c6f70f6262d971489361b0d4fb0936ed",
+      "recency": 80,
+      "frequency": 1,
+      "monetary": 1488.59,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "9b5427f064283ebd4f23ee679e223555",
+      "recency": 547,
+      "frequency": 1,
+      "monetary": 1488.14,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "76cef8c0830232a6298b50d60153fb6c",
+      "recency": 348,
+      "frequency": 1,
+      "monetary": 1485.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b248c92ec54199bedb1d603e0e6f98c6",
+      "recency": 238,
+      "frequency": 2,
+      "monetary": 1483.26,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "7a44821edf14b2b2ef3ffb2c6e837e5b",
+      "recency": 357,
+      "frequency": 1,
+      "monetary": 1482.42,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "9eca552063680b7cd2ed0e8aea002b21",
+      "recency": 279,
+      "frequency": 1,
+      "monetary": 1482.24,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "b0e6870a2c0f7a96e18c84c02da14f94",
+      "recency": 578,
+      "frequency": 1,
+      "monetary": 1481.03,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "79e12483f9b14c3254db94bd137a4b70",
+      "recency": 71,
+      "frequency": 1,
+      "monetary": 1480.73,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "7efc49d7862ee114c0ca869b439bf381",
+      "recency": 347,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5a0b87c34f674cb92d999d2a37096227",
+      "recency": 359,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "bfb1a102e6fe99d83c5e78e58370a8de",
+      "recency": 349,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4e5a10bd8f468ee5acc890961a2b7ce4",
+      "recency": 355,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ae06b0187a99aaeb5e845b9638936e7d",
+      "recency": 351,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fc360164eb368b0eb12c1d5eb2bf5e0d",
+      "recency": 349,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "739209d88340a09d4f6d29cc809daa67",
+      "recency": 371,
+      "frequency": 1,
+      "monetary": 1479.51,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4d402e51f4e8a128657c7ac78b59bfb2",
+      "recency": 284,
+      "frequency": 1,
+      "monetary": 1478.95,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "d3729a20d98aab032427c9d19d7cb7b9",
+      "recency": 70,
+      "frequency": 1,
+      "monetary": 1478.48,
+      "segment": "Needs Attention"
+    },
+    {
+      "customer": "b35e7c1ee8ccbce232fad3bc996e6298",
+      "recency": 223,
+      "frequency": 1,
+      "monetary": 1478.45,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4711348768db55c57a67aba080ead566",
+      "recency": 131,
+      "frequency": 2,
+      "monetary": 1478.2,
+      "segment": "Loyal"
+    },
+    {
+      "customer": "ce8c3a9189899cfa9882c8992bf2838f",
+      "recency": 294,
+      "frequency": 1,
+      "monetary": 1476.8,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f85107d1dbc6b78bb1c784d5928c14c3",
+      "recency": 187,
+      "frequency": 1,
+      "monetary": 1476.07,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "f03553cc2a5d9a0d2b945ccf7f4c54bc",
+      "recency": 288,
+      "frequency": 1,
+      "monetary": 1475.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "886583680443fec2ba8b1426cc6facde",
+      "recency": 73,
+      "frequency": 1,
+      "monetary": 1474.76,
+      "segment": "Needs Attention"
+    }
+  ],
+  "churnWatchlist": [
+    {
+      "customer": "0a0a92112bd4c708ca5fde585afaa872",
+      "recency": 383,
+      "frequency": 1,
+      "monetary": 13664.08,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "dc4802a71eae9be1dd28f5d788ceb526",
+      "recency": 611,
+      "frequency": 1,
+      "monetary": 6929.31,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "ff4159b92c40ebe40454e3e6a7c35ed6",
+      "recency": 510,
+      "frequency": 1,
+      "monetary": 6726.66,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "4007669dec559734d6f53e029e360987",
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 6081.54,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "eebb5dda148d3893cdaf5b5ca3040ccb",
+      "recency": 546,
+      "frequency": 1,
+      "monetary": 4764.34,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "edf81e1f3070b9dac83ec83dacdbb9bc",
+      "recency": 546,
+      "frequency": 1,
+      "monetary": 4194.76,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "fa562ef24d41361e476e748681810e1e",
+      "recency": 202,
+      "frequency": 1,
+      "monetary": 4175.26,
+      "segment": "At Risk"
+    },
+    {
+      "customer": "5e713be0853d8986528d7869a0811d2b",
+      "recency": 619,
+      "frequency": 1,
+      "monetary": 4042.74,
+      "segment": "At Risk"
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2017-11",
+      "size": 7304,
+      "retention": [
+        100.0,
+        0.5,
+        0.4,
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "cohort": "2017-12",
+      "size": 5487,
+      "retention": [
+        100.0,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.2
+      ]
+    },
+    {
+      "cohort": "2018-01",
+      "size": 7025,
+      "retention": [
+        100.0,
+        0.3,
+        0.4,
+        0.3,
+        0.3,
+        0.2
+      ]
+    },
+    {
+      "cohort": "2018-02",
+      "size": 6451,
+      "retention": [
+        100.0,
+        0.4,
+        0.4,
+        0.3,
+        0.3,
+        0.2
+      ]
+    },
+    {
+      "cohort": "2018-03",
+      "size": 6965,
+      "retention": [
+        100.0,
+        0.5,
+        0.3,
+        0.3,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "cohort": "2018-04",
+      "size": 6711,
+      "retention": [
+        100.0,
+        0.6,
+        0.3,
+        0.2,
+        0.1,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-05",
+      "size": 6622,
+      "retention": [
+        100.0,
+        0.5,
+        0.3,
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-06",
+      "size": 5940,
+      "retention": [
+        100.0,
+        0.4,
+        0.3,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-07",
+      "size": 6071,
+      "retention": [
+        100.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-08",
+      "size": 6270,
+      "retention": [
+        100.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-09",
+      "size": 4,
+      "retention": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "2018-10",
+      "size": 1,
+      "retention": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "orderStatuses": [
+    {
+      "status": "Delivered",
+      "orders": 96477
+    },
+    {
+      "status": "Shipped",
+      "orders": 1107
+    },
+    {
+      "status": "Canceled",
+      "orders": 622
+    },
+    {
+      "status": "Unavailable",
+      "orders": 609
+    },
+    {
+      "status": "Invoiced",
+      "orders": 314
+    },
+    {
+      "status": "Processing",
+      "orders": 301
+    },
+    {
+      "status": "Created",
+      "orders": 5
+    },
+    {
+      "status": "Approved",
+      "orders": 2
+    }
+  ]
+}

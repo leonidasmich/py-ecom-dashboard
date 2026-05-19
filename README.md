@@ -100,9 +100,28 @@ This dashboard provides a **single source of truth** for ecommerce analytics, en
 - **PostgreSQL**: Relational database for normalized data  
 - **Streamlit**: Interactive analytics frontend  
 - **Plotly**: Rich data visualizations and maps  
+- **React + Highcharts**: Browser-based dashboard preview with reusable chart cards
 - **Docker**: Containerized backend infrastructure  
 - **GeoJSON**: Spatial mapping of revenue insights  
 - **Streamlit Secrets**: Secure credential management for cloud deployment  
+
+---
+
+### ⚛️ React Dashboard Preview
+
+The repository also includes a Vite-powered React UI that renders the ecommerce analytics with Highcharts.
+
+```bash
+npm install
+npm run generate:data
+npm run dev
+```
+
+For a production check:
+
+```bash
+npm run build
+```
 
 ---
 
