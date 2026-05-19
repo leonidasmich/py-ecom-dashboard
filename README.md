@@ -24,7 +24,7 @@ I led the full project lifecycle:
 - **Data ingestion** from structured CSV datasets into a normalized **PostgreSQL** database
 - Developed an **automated data seeding pipeline** with bulk inserts and conflict resolution
 - **Containerized the database** using Docker for consistent local and remote environments
-- Designed and deployed an interactive **Streamlit dashboard** with responsive filtering
+- Designed and deployed an interactive **Streamlit dashboard** with responsive filtering and **Highcharts** visualizations
 - Implemented **cohort analysis**, **RFM segmentation**, and **KMeans clustering**
 - Developed a **churn prediction model** using Logistic Regression
 
@@ -52,7 +52,7 @@ I led the full project lifecycle:
 - Visualized segments in a bubble scatterplot  
 
 #### 🌍 Geographic Revenue Insights
-- Choropleth map using GeoJSON to show revenue by Brazilian state  
+- Highcharts map using GeoJSON to show revenue by Brazilian state  
 - Highlights regional disparities and potential market focus areas  
 
 #### 🔮 Churn Prediction Model
@@ -99,7 +99,7 @@ This dashboard provides a **single source of truth** for ecommerce analytics, en
 - **Python**: Pandas, Scikit-learn, NumPy, psycopg2  
 - **PostgreSQL**: Relational database for normalized data  
 - **Streamlit**: Interactive analytics frontend  
-- **Plotly**: Rich data visualizations and maps  
+- **Highcharts**: Rich interactive charts and maps  
 - **Docker**: Containerized backend infrastructure  
 - **GeoJSON**: Spatial mapping of revenue insights  
 - **Streamlit Secrets**: Secure credential management for cloud deployment  
