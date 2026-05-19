@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce-analytics-react-ui",
+  "version": "1.0.0",
+  "description": "An ecommerce business struggles to understand key customer behaviors and sales trends across regions. While data exists in silos (orders, customers, products), the company lacks a **unified analytics tool** to track performance, identify loyal customers, and anticipate churn.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "generate:data": "python3 scripts/generate_dashboard_data.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonidasmich/py-ecom-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonidasmich/py-ecom-dashboard/issues"
+  },
+  "homepage": "https://github.com/leonidasmich/py-ecom-dashboard#readme",
+  "dependencies": {
+    "highcharts": "^12.6.0",
+    "highcharts-react-official": "^3.2.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.13"
+  }
+}
